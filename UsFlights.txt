@@ -1,0 +1,12 @@
+
+Ejercicio 1
+
+SELECT MAX(flightID)
+FROM flights;
+
+
+Ejercicio 2
+
+SELECT  Origin, AVG(ArrDelay), AVG(DepDelay)
+FROM flights
+GROUP BY Origin;
